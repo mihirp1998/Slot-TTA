@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- TITLE -->
-# **Test-time adaptation with slot-centric models**
+# **Test-time Adaptation with Slot-Centric Models**
 
 [![arXiv](https://img.shields.io/badge/cs.LG-arXiv:2203.11194-b31b1b.svg)](https://arxiv.org/abs/2203.11194)
 [![Website](https://img.shields.io/badge/🌎-Website-blue.svg)](https://mihirp1998.github.io/project_pages/slottta/)
@@ -25,7 +25,7 @@ If you find this work useful in your research, please cite:
 
 ```bibtex
 @inproceedings{prabhudesai2022test,
-title={Test-time adaptation with slot-centric models},
+title={Test-time Adaptation with Slot-Centric Models},
 author={Prabhudesai, Mihir and Goyal, Anirudh and Paul, Sujoy and van Steenkiste, Sjoerd and Sajjadi, Mehdi SM and Aggarwal, Gaurav and Kipf, Thomas and Pathak, Deepak and Fragkiadaki, Katerina},
 journal={arXiv preprint arXiv:2203.11194},
 year={2022}
