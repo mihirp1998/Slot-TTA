@@ -51,7 +51,8 @@ python main.py +experiment=clevr_train
 
 ### Test-Time Adaptation Code
 
-We provide the pre-trained model of our 2D CLEVR experiment over [here](https://github.com/mihirp1998/Slot-TTA/checkpoint/clevr_train/checkpoint.pt)
+We provide the pre-trained model of our 2D CLEVR experiment over [here](https://github.com/mihirp1998/Slot-TTA/checkpoint/clevr_train/checkpoint.pt).
+
 In order to load with your own checkpoint, simply update the `load_folder` variable as shown below.
 For intermediate TTA result visualization, set `deep_tta_vis` variable to True
 
