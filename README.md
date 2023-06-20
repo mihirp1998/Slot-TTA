@@ -9,6 +9,8 @@
 [![Website](https://img.shields.io/badge/🌎-Website-blue.svg)](https://slot-tta.github.io/)
 </div>
 
+<img src="images/slot-tta_model_fig.png" alt="Model figure"/>
+
 
 <!-- DESCRIPTION -->
 ## Abstract
