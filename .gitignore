@@ -1,0 +1,6 @@
+checkpoint
+outputs
+tta_dump
+*.pyc
+*.log
+wandb

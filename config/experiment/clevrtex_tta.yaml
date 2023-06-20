@@ -1,0 +1,4 @@
+# @package _global_
+do_tta: True
+dataset_name: clevr_tex
+load_folder: checkpoint/clevr_train/checkpoint.pt

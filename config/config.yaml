@@ -1,0 +1,60 @@
+
+defaults:
+  - _self_  # Override values within this file with values in selected files.
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled  
+
+# general params
+use_cuda: True
+use_random_seed: False
+seed: 42
+do_tta: False
+
+
+# input params
+dataset_name: clevr_train
+batch_size: 16
+input_dim: 3
+image_height: 128
+image_width: 128
+# set to an integer for tta on a specific example index
+specific_example: None
+overfit: False
+root_folder: ./
+num_workers: 4
+persistent_worker: True
+load_folder: None
+
+
+# optimizer params
+learning_rate_schedule: 1  # 0 - constant lr; 1 - warm-up
+warmup_steps: 500
+learning_rate: 5e-4
+tta_optimizer: adam
+
+# logging params
+save_freq: 100
+log_freq: 100
+# enable for tta vis for each tta step
+deep_tta_vis: False
+
+# model params
+num_slots: 11
+num_iterations: 3
+feat_dim: 64
+decoder_num_blocks: 4
+
+# loss params
+rgb_loss_coeff: 1.0
+mask_loss_coeff: 0.01
+
+
+# training params
+training_steps: 500000
+tta_steps: 150
+
+
+hydra:  
+  output_subdir: null  
+  run:  
+    dir: .
